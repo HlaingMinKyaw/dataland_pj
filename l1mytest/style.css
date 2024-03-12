@@ -1,0 +1,33 @@
+body{
+	font-family: sans-serif;
+}
+.accordin{
+	width: 100%;
+}
+
+.acctitile{
+	
+
+	background-color: #777;
+	color: #fff;
+	padding: 15px;
+	font-size: 15px;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+
+}
+.acctitile:hover, .active{
+	background-color: steelblue;
+}
+.acctitile::after{
+	content: 'hay';
+
+	position: absolute;
+	top: 25px;
+	right: 50%;
+
+	transform: translateY();
+
+
+}

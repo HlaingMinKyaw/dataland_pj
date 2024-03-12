@@ -1,0 +1,41 @@
+body{
+	font-family: sans-serif;
+}
+.accordin{
+	width: 100%;
+}
+.acctitle{
+	background-color:darkblue;
+	color: #fff;
+	padding: 15px;
+	font-size: 14px;
+	position: relative;
+	user-select: none;
+	cursor: pointer;
+}
+.acctitle:hover,.active{
+	background-color: red;
+}
+
+.accontent{
+	/*	height: 0;*/
+	text-align: justify;
+	text-indent: 50px;
+	padding: 0 17px;
+	font-size: 15px;
+
+}
+.acctitle::after{
+	content: '\f05a';
+	font-family: "Font Awesome 5 Free";
+
+	position: absolute;
+	
+	right: 15px;
+	top:50%;
+
+	transform: translateY(-50%);
+	
+
+	
+}
